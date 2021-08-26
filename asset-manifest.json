@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hwui/static/css/main.1294febc.chunk.css",
+    "main.js": "/hwui/static/js/main.493aa9b6.chunk.js",
+    "main.js.map": "/hwui/static/js/main.493aa9b6.chunk.js.map",
+    "runtime-main.js": "/hwui/static/js/runtime-main.fcb69f08.js",
+    "runtime-main.js.map": "/hwui/static/js/runtime-main.fcb69f08.js.map",
+    "static/js/2.6df9e92c.chunk.js": "/hwui/static/js/2.6df9e92c.chunk.js",
+    "static/js/2.6df9e92c.chunk.js.map": "/hwui/static/js/2.6df9e92c.chunk.js.map",
+    "static/js/3.8256e669.chunk.js": "/hwui/static/js/3.8256e669.chunk.js",
+    "static/js/3.8256e669.chunk.js.map": "/hwui/static/js/3.8256e669.chunk.js.map",
+    "index.html": "/hwui/index.html",
+    "static/css/main.1294febc.chunk.css.map": "/hwui/static/css/main.1294febc.chunk.css.map",
+    "static/js/2.6df9e92c.chunk.js.LICENSE.txt": "/hwui/static/js/2.6df9e92c.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/hwui/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fcb69f08.js",
+    "static/js/2.6df9e92c.chunk.js",
+    "static/css/main.1294febc.chunk.css",
+    "static/js/main.493aa9b6.chunk.js"
+  ]
+}
