@@ -1,3 +1,3 @@
 # Hi
 
-This site display homework
+This site displays homework
