@@ -1,0 +1,31 @@
+#header {
+    font-family: Poppins;
+    margin: 33px 0px 33px 33px;
+}
+
+.right {
+    transform: scaleX(-1);
+    float:left;
+    position: absolute;
+    right:25px;
+    margin-top: 45px;
+}
+
+.left {
+    position: absolute;
+    right:65px;
+    margin-top: 45px;
+}
+
+#header-wrapper .nav-item img {
+    height:25px;
+    float:right;
+}
+
+#header-wrapper {
+    height:114px;
+}
+
+.buttons {
+    float: right;
+}

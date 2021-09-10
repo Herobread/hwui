@@ -1,0 +1,47 @@
+.event-wrapper {
+    border-bottom: 1px #bbbbbb solid;
+}
+.event-item {
+    height:150px;
+    width: 100%;
+    border-top:1px #bbbbbb solid;
+}
+
+.event-info {
+    position: absolute;
+    right:15px;
+    overflow:hidden;
+    float: right;
+    margin-top: 55px;
+    font-size: 17pt;
+}
+
+.event-name {
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    width: calc(100% - 120px);
+    font-size: 20pt;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 250px;
+    float: left;
+}
+
+.event-time {
+    overflow:hidden;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 83px;
+    float: left;
+    color: #3d3d3d;
+}
+
+@media screen and (min-width: 700px) {
+    .event-time, .event-name {
+        margin-left: 50px;
+    }
+    .event-info {
+        margin-right: 50px;
+    }
+}
