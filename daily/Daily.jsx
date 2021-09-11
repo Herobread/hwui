@@ -101,8 +101,13 @@ function createEventList(id) {
         }
 
         if (startTime.getTime() - date.getTime() > 0 || endTime.getTime() - date.getTime() > 0) {
-            eventList.push(<Event name={now + table[dayPos][i][0]} time={table[dayPos][i][1] + `-` + table[dayPos][i][2]} info={cabinet} isFirst={isFirst} />);
-            isFirst = 0;
+                if (table[dayPos][i][0]=="Break" && isFirst==1){
+                    eventList.push(<Event name={now + table[dayPos][i][0]} time={table[dayPos][i][1] + `-` + table[dayPos][i][2]} info={cabinet} isFirst={isFirst} />);
+                    isFirst = 0;
+                } else if (table[dayPos][i][0]!="Break") {
+                eventList.push(<Event name={now + table[dayPos][i][0]} time={table[dayPos][i][1] + `-` + table[dayPos][i][2]} info={cabinet} isFirst={isFirst} />);
+                isFirst = 0;
+            }
         }
     }
     return eventList;
